@@ -8,4 +8,7 @@ def isprime(num):
             return False
         return True
 num=int(input())
-print(isprime(num))
+if isprime(num):
+    print("prime")
+else:
+    print("not a prime")
