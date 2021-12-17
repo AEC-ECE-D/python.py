@@ -1,0 +1,12 @@
+list=[1,2,3,4,5,6,7,8,9,10]
+print(list[0:-1])
+list[2]=15
+print(list)
+list[3:6]=2,4,5
+print(list)
+y=list*2
+print(y)
+print(len(y))
+print(max(y))
+print(min(y))
+print(max(y)+min(y))
