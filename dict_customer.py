@@ -1,0 +1,10 @@
+customer={
+    "name":"vivek",
+    "age":19,
+    "phone":9160829692,
+    "birthday":"30-dec-2002",
+    "college":"aditya",
+    "place":"vizianagaram"
+    }
+print(customer)
+print(customer["name"])
